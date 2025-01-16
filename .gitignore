@@ -48,8 +48,35 @@ yarn-debug.log*
 *.bak
 *~
 .env
+.env.*
 .byebug_history
 .DS_Store
 
 /app/assets/builds/*
 !/app/assets/builds/.keep
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Local environment variables
+.env.local
+.env.development
+.env.test
+.env.production
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Clacky-specific configuration
+.1024*
+!.1024
+.breakpoints

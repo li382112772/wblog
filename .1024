@@ -1,0 +1,13 @@
+# Command to run when "Run" button clicked
+run_command: bin/dev
+
+# Command to install or update dependencies, will execute each time a new thread created to ensure dependencies up-to-date
+dependency_command: gem install bundler && bundle install && npm install yarn -g && yarn install
+
+# Environment variables configuration
+env_config_path: config/application.yml
+
+# Project type and required services
+project_type: rails
+services:
+  - postgres
